@@ -1,9 +1,7 @@
 # Simple GPU Stress Test
 A lightweight script for quickly stressing NVIDIA GPUs (PyTorch-based). It uses large matrix multiplications (GEMM) and an optional large 2D convolution to keep the GPU busy, making it useful for evaluating throughput, memory pressure, and stability.
 
-> English · 中文
-
-For the Chinese README, see [README_cn.md](README_cn.md).
+> English · [中文](README_cn.md)
 
 ## Features
 - Supports multiple CUDA streams, selectable numeric precisions (fp16 / bf16 / fp32), and optional reserved GPU memory.
