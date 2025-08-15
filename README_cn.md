@@ -3,9 +3,7 @@
 
 一个用于快速压测 NVIDIA GPU（基于 PyTorch）的轻量级脚本，主要通过大矩阵乘法和可选的 2D 卷积保持 GPU 高利用率，便于评估吞吐、显存压力与稳定性。
 
-> 中文 · English
-
-查看英文版请参见 [README.md](README.md)。
+> 中文 · [English](README.md)
 
 ## 功能
 - 对指定 GPU 连续运行矩阵乘（GEMM）并可选叠加卷积负载。
@@ -50,4 +48,4 @@ python gpu_stress.py --seconds 300 --size 8192 --dtype fp16 --conv
 - 如果想精确控制 PyTorch 的 CUDA wheel，请参考官方安装页 https://pytorch.org，选择与你的 CUDA 版本匹配的 wheel。
 
 ## 许可证
-见仓库根目录 `LICENSE`。
+MIT
